@@ -11,7 +11,7 @@ export default function Home() {
   const handleNavigate = async () => {
     try {
       // const apiBase = typeof window !== 'undefined' ? `http://${window.location.hostname}:8000/api/v1` : 'http://localhost:8000/api/v1';
-      const apiBase = typeof window !== 'undefined' ? `https://czloxi-fitness-backend.onrender.com/api/v1` : 'https://czloxi-fitness-backend.onrender.com/api/v1';
+      const apiBase = typeof window !== 'undefined' ? `https://caloxi.xoraxi.cloud/api/v1` : 'https://caloxi.xoraxi.cloud/api/v1';
       const res = await fetch(`${apiBase}/admin/login`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
